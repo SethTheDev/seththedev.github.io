@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk);
+
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+}
+
+#title{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 5rem;
+}
+
+#countdown{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+
+.values{
+    font-family: 'Digital Numbers Regular';
+}
+
+.box{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    display: inline;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+}
+
+what{
+    padding-left: 6px;
+}
+
+body{
+    background: linear-gradient(-45deg, #ee5296, #5d23bb, #23a6d5, #23d5ab);
+	background-size: 100% 100%;
+	animation: gradient 20s forwards infinite;
+    /* height: 100vh; */
+    position: relative;
+}
+
+#footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Consolas';
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+#footer p {
+    margin: 0 auto;
+    max-width: 70%; /* Adjust this value as needed */
+}
